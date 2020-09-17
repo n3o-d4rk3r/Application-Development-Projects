@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="splash_txt">Scan the QR Code</string>
+    <string name="action_flash">Flash</string>
+    <string name="action_focus">Auto Focus</string>
+    <string name="action_cam">Switch Camera</string>
+
+    <string name="menu_scan">Scan</string>
+    <string name="menu_generate">Generate</string>
+    <string name="menu_history">History</string>
+
+    <string name="share">Install QR and Barcode scanner app from:</string>
+    <string name="tapAgain">Tap again to exit!</string>
+
+    <string name="permission_not_granted">Permission not granted!</string>
+
+    <string name="autofocus_on">Autofocus activated</string>
+    <string name="autofocus_off">Autofocus deactivated</string>
+
+    <string name="type_here_bar">Generate barcode</string>
+    <string name="type_here_qr">Generate QR code</string>
+
+    <string name="copied">Copied to clipboard.</string>
+    <string name="result">Result</string>
+
+    <string name="saving">Saving...</string>
+    <string name="preparing">Preparing...</string>
+    <string name="saved_to">Saved to:\n</string>
+    <string name="directory_in">Directory in SD card.</string>
+    <string name="no_history">No history found\nYou haven\'t  scanned any item yet.</string>
+
+    <!-- app ad section -->
+    <string name="app_ad_id">ca-app-pub-9918470738346453~6516993775</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9918470738346453/5124645695</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9918470738346453/2989436947</string>
+</resources>

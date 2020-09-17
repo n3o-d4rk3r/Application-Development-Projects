@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:autoLink="web|email"
+            android:linksClickable="true"
+            android:paddingBottom="15dp"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/menu_history"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/copyButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_copy_wbtn"
+            android:focusable="false"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/viewfinder_mask" />
+
+</LinearLayout>

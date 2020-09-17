@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.GenerateFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/inputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_input">
+
+                <EditText
+                    android:id="@+id/inputText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/type_here_qr"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp" />
+
+                <ImageButton
+                    android:id="@+id/switcher"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/colorPrimary"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_barcode_button" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/outputBitmap"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_below="@+id/inputLayout"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_qr_placeholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/outputBitmap"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@drawable/ic_save"
+                    app:elevation="3dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@drawable/ic_share"
+                    app:elevation="3dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
