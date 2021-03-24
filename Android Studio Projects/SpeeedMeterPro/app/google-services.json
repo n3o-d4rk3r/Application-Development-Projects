@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1062853443721",
+    "firebase_url": "https://speed-meter-probd2020.firebaseio.com",
+    "project_id": "speed-meter-probd2020",
+    "storage_bucket": "speed-meter-probd2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062853443721:android:b2dc5a4d4ee49415c64658",
+        "android_client_info": {
+          "package_name": "com.ipixel.speedmeterpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062853443721-8m6nb1utb1jmkflk8c2s7ln4dh6ec2d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw8tfNEXusu7kXeM7q-IaA9C5RZCMvH5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062853443721-8m6nb1utb1jmkflk8c2s7ln4dh6ec2d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
