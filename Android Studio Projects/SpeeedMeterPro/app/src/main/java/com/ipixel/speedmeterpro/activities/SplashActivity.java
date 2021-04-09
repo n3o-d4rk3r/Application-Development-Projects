@@ -10,9 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ipixel.speedmeterpro.R;
 
-/**
- * The type Splash activity.
- */
 public class SplashActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
