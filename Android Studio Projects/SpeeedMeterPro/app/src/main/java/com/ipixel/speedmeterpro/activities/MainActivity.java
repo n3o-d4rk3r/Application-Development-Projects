@@ -7,9 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ipixel.speedmeterpro.R;
 
-/**
- * The type Home activity.
- */
 public class MainActivity extends AppCompatActivity {
 
 	@Override
