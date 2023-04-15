@@ -1,3 +1,3 @@
 # Application-Development-Projects
 
-Android app source code here USING JAVA & KOTLIN
+Android app source code here using java and kotlin language
